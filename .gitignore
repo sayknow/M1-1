@@ -1,0 +1,7 @@
+.env
+.venv/
+.matplotlib/
+.freebuff/
+__pycache__/
+*.py[cod]
+.DS_Store

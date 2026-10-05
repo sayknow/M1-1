@@ -1,0 +1,52 @@
+{
+  "period": {
+    "start": "2015-01",
+    "end": "2025-12",
+    "months": 132
+  },
+  "contemporaneous_correlations": {
+    "exchange_yoy_vs_cpi_yoy": 0.39190703625827394,
+    "base_rate_change_vs_cpi_yoy": 0.5154867493469084
+  },
+  "selected_lag_correlations": [
+    {
+      "lag_months": 0,
+      "exchange_yoy_vs_cpi_yoy": 0.39190703625827394,
+      "base_rate_change_vs_cpi_yoy": 0.5154867493469084
+    },
+    {
+      "lag_months": 1,
+      "exchange_yoy_vs_cpi_yoy": 0.3555497663093528,
+      "base_rate_change_vs_cpi_yoy": 0.5003195128655489
+    },
+    {
+      "lag_months": 3,
+      "exchange_yoy_vs_cpi_yoy": 0.2715054804822605,
+      "base_rate_change_vs_cpi_yoy": 0.4641872525140737
+    },
+    {
+      "lag_months": 6,
+      "exchange_yoy_vs_cpi_yoy": 0.17157862152124956,
+      "base_rate_change_vs_cpi_yoy": 0.39280048061589573
+    },
+    {
+      "lag_months": 12,
+      "exchange_yoy_vs_cpi_yoy": 0.05690112291441961,
+      "base_rate_change_vs_cpi_yoy": 0.26418163048194543
+    }
+  ],
+  "strongest_absolute_lag_correlations": {
+    "exchange_yoy_vs_cpi_yoy": {
+      "lag_months": 0,
+      "correlation": 0.39190703625827394,
+      "observations": 120
+    },
+    "base_rate_change_vs_cpi_yoy": {
+      "lag_months": 0,
+      "correlation": 0.5154867493469084,
+      "observations": 120
+    }
+  },
+  "interpretation_warning": "Correlations are descriptive associations, not causal estimates. Interest rates may respond to inflation, and omitted common shocks may affect all series.",
+  "lag_definition": "At lag k, predictor(t-k) is correlated with CPI YoY(t); positive k means the predictor leads CPI."
+}
