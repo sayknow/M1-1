@@ -5,45 +5,45 @@
     "months": 132
   },
   "contemporaneous_correlations": {
-    "exchange_yoy_vs_cpi_yoy": 0.39190703625827394,
-    "base_rate_change_vs_cpi_yoy": 0.5154867493469084
+    "exchange_yoy_vs_cpi_yoy": 0.39190703625827367,
+    "base_rate_change_vs_cpi_yoy": 0.5154867493469081
   },
   "selected_lag_correlations": [
     {
       "lag_months": 0,
-      "exchange_yoy_vs_cpi_yoy": 0.39190703625827394,
-      "base_rate_change_vs_cpi_yoy": 0.5154867493469084
+      "exchange_yoy_vs_cpi_yoy": 0.39190703625827367,
+      "base_rate_change_vs_cpi_yoy": 0.5154867493469081
     },
     {
       "lag_months": 1,
-      "exchange_yoy_vs_cpi_yoy": 0.3555497663093528,
-      "base_rate_change_vs_cpi_yoy": 0.5003195128655489
+      "exchange_yoy_vs_cpi_yoy": 0.3555497663093529,
+      "base_rate_change_vs_cpi_yoy": 0.5003195128655484
     },
     {
       "lag_months": 3,
-      "exchange_yoy_vs_cpi_yoy": 0.2715054804822605,
-      "base_rate_change_vs_cpi_yoy": 0.4641872525140737
+      "exchange_yoy_vs_cpi_yoy": 0.27150548048226064,
+      "base_rate_change_vs_cpi_yoy": 0.46418725251407345
     },
     {
       "lag_months": 6,
-      "exchange_yoy_vs_cpi_yoy": 0.17157862152124956,
-      "base_rate_change_vs_cpi_yoy": 0.39280048061589573
+      "exchange_yoy_vs_cpi_yoy": 0.1715786215212494,
+      "base_rate_change_vs_cpi_yoy": 0.39280048061589545
     },
     {
       "lag_months": 12,
-      "exchange_yoy_vs_cpi_yoy": 0.05690112291441961,
-      "base_rate_change_vs_cpi_yoy": 0.26418163048194543
+      "exchange_yoy_vs_cpi_yoy": 0.056901122914419594,
+      "base_rate_change_vs_cpi_yoy": 0.26418163048194526
     }
   ],
   "strongest_absolute_lag_correlations": {
     "exchange_yoy_vs_cpi_yoy": {
       "lag_months": 0,
-      "correlation": 0.39190703625827394,
+      "correlation": 0.39190703625827367,
       "observations": 120
     },
     "base_rate_change_vs_cpi_yoy": {
       "lag_months": 0,
-      "correlation": 0.5154867493469084,
+      "correlation": 0.5154867493469081,
       "observations": 120
     }
   },
